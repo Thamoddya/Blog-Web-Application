@@ -1,0 +1,16 @@
+[27-May-2023 14:12:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/thamoddy/public_html/components/viewTraffic.component.php:5
+Stack trace:
+#0 /home/thamoddy/public_html/single-post.php(9): include_once()
+#1 {main}
+  thrown in /home/thamoddy/public_html/components/viewTraffic.component.php on line 5
+[27-May-2023 15:51:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'thamoddy_blog.homeheaderpost' doesn't exist in /home/thamoddy/public_html/layouts/Home/hero.home.php:7
+Stack trace:
+#0 /home/thamoddy/public_html/layouts/Home/hero.home.php(7): PDOStatement->execute()
+#1 /home/thamoddy/public_html/index.php(27): include_once('/home/thamoddy/...')
+#2 {main}
+  thrown in /home/thamoddy/public_html/layouts/Home/hero.home.php on line 7
+[29-May-2023 02:39:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/thamoddy/public_html/components/viewTraffic.component.php:5
+Stack trace:
+#0 /home/thamoddy/public_html/single-post.php(9): include_once()
+#1 {main}
+  thrown in /home/thamoddy/public_html/components/viewTraffic.component.php on line 5
